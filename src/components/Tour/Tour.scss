@@ -34,4 +34,24 @@
 
 .tour-info{
     padding: 1rem 0.5rem;
+
+    h3{
+        text-transform: uppercase;
+        color: $primaryGreen;
+    }
+    h4{
+        text-transform: capitalize;
+        color: $primaryBlack;
+        margin: 0.2rem 0 0.6rem;
+    }
+    h5{
+        text-transform: capitalize;
+        color: $primaryBlack;
+        span{
+            color: $primaryBlack;
+            margin: 0.5rem;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    }
 }
