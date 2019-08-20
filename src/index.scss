@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primaryBlack:#222;
+$primaryGreen: #82b340;
+$primaryWhite: #fff;
+$primaryGrey: #ececec;
+
+body{
+    background: $primaryGrey;
+    color: $primaryGreen;
+    font-family: 'Lato', sans-serif;
+}
